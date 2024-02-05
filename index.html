@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=", initial-scale="1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <div class="box">
+            <span id="pass-box" class="pass-box1">Testing</span>
+            <div class="row">
+                <div class="left">
+                    Password Length
+                </div>
+                <div class="right">
+                    <input type="number" id="total-char" min="2" max="30" value="6">
+                    
+                </div>
+            </div>
+
+                <div class="row">
+                    <label for="Upper-case">
+                        <div class="left">
+                            contains UpperCase
+                        </div>
+                    </label>
+                    <div class="right">
+                        <input type="checkbox" id="Upper-case">
+                    </div>
+                </div>
+
+                    <div class="row">
+                        <label for="Lower-case">
+                            <div class="left">
+                                contains lowerCase
+                            </div>
+                        </label>
+                        <div class="right">
+                            <input type="checkbox" id="Lower-case">
+                        </div>
+                    </div>
+
+                        <div class="row">
+                            <label for="number">
+                                <div class="left">
+                                    contains Number
+                                </div>
+                            </label>
+                            <div class="right">
+                                <input type="checkbox" id="number">
+                            </div>
+                        </div>
+
+                            <div class="row">
+                                <label for="symbol">
+                                    <div class="left">
+                                        contains symbol
+                                    </div>
+                                </label>
+                                <div class="right">
+                                    <input type="checkbox" id="symbol">
+                                </div>
+                            </div>
+
+                            <button id="btn">
+                                   Generate
+                            </button>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
